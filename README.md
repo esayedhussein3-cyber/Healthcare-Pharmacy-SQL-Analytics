@@ -17,3 +17,37 @@ This project presents an end-to-end SQL-based data analytics solution for a heal
 ├── SQL_Scripts/
 │   └── healthcare_analysis.sql   -- Full T-SQL script containing all 21 analytical queries
 └── README.md                     -- Project documentation and overview
+
+Key Business Insights Covered
+1. Sales & Revenue Analytics
+Prescription vs. Non-Prescription: Evaluated revenue share generated from prescription sales (is_prescription).
+
+Category Contribution: Identified high-impact categories contributing >= 10% to total company revenue using CTEs.
+
+Monthly Revenue Trends: Tracked seasonal growth patterns across years and months.
+
+2. Store & Regional Operations
+Regional Benchmarking: Benchmarked individual store revenues against their regional averages to classify stores as Above Average or Below Average.
+
+Top Performers: Ranked top 5 products and top 3 employees per store using DENSE_RANK().
+
+Revenue per Employee: Calculated store efficiency by measuring average revenue generated per employee.
+
+3. Inventory & Supply Chain
+Stock Reorder Alerts: Flagged products reaching critical stock thresholds (quantity <= reorder_level).
+
+Supplier Distribution: Evaluated supplier portfolio sizes to manage supply chain dependencies.
+
+4. Customer Intelligence & Loyalty
+Customer Segmentation: Categorized customers into tiers (VIP, A Class, B Class, C Class) based on lifetime spend.
+
+Cross-Store Loyalists: Identified high-value customers with >10 orders across multiple store locations spending above the global average.
+
+Loyalty Program Performance: Analyzed average spending and points across loyalty levels.
+
+How to Run the Scripts
+Restore or connect to your SQL Server instance containing the healthcare_db_enhanced schema.
+
+Open SQL_Scripts/healthcare_analysis.sql in SSMS (SQL Server Management Studio).
+
+Execute the script sequentially to review individual business outputs.
