@@ -1,5 +1,3 @@
-# Healthcare-Pharmacy-SQL-Analytics
-Healthcare-Pharmacy-SQL-Analytics
 # Healthcare & Pharmacy Retail SQL Analytics
 
 ## Project Overview
