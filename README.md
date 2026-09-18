@@ -14,3 +14,8 @@ This project presents an end-to-end SQL-based data analytics solution for a heal
   - **Common Table Expressions (CTEs)**: Multi-level CTEs for regional benchmarking and company-wide contribution metrics.
   - **Aggregations & Grouping**: `GROUP BY`, `HAVING`, and `CASE` conditional aggregations.
   - **Subqueries & Cross Joins**: Nested aggregation subqueries and `CROSS JOIN` for global percentage benchmarking.
+## Repository Structure
+```text
+├── SQL_Scripts/
+│   └── healthcare_analysis.sql   -- Full T-SQL script containing all 21 analytical queries
+└── README.md                     -- Project documentation and overview
