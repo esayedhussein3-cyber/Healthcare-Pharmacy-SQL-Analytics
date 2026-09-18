@@ -1,6 +1,6 @@
 # Healthcare-Pharmacy-SQL-Analytics
 Healthcare-Pharmacy-SQL-Analytics
-# 🏥 Healthcare & Pharmacy Retail SQL Analytics
+# Healthcare & Pharmacy Retail SQL Analytics
 
 ## Project Overview
 This project presents an end-to-end SQL-based data analytics solution for a healthcare and pharmacy retail network (`healthcare_db_enhanced`). The analysis covers **21 comprehensive business questions** designed to optimize sales performance, store efficiency, inventory management, employee productivity, and customer loyalty segmentation.
